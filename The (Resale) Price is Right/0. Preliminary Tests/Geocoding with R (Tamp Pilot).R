@@ -1,6 +1,6 @@
 library(readr)
 library(ggmap)
-register_google(key="AIzaSyBgczf5a61gv-drXmko1tA9Wi53HJuqtn8", write=TRUE)
+register_google(key="", write=TRUE)
 
 df <- read_csv("resale_tamp_18.csv")
 head(df)
